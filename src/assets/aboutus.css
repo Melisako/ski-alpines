@@ -1,0 +1,72 @@
+
+  .about-image {
+    width: 100%;
+    height: auto;
+   height: 32rem;
+   margin-bottom: 6rem;
+  }
+  
+h3{
+    margin-top: 5rem;
+    display: inline;
+    margin-right: 0.5rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+  
+p{
+  margin-left: 13rem;
+  width: 45rem;
+    font-size: 0.9rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #666;
+}
+span{
+  width: 45rem;
+    font-size: 0.9rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 15rem;
+    color: #666;
+}
+
+.news {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  
+  .news-card {
+    width: 30%; 
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .news-image {
+    width: 18rem;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .news-card h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .news-card p {
+    margin-left: 2rem;
+    width: 19rem;
+    font-size: 0.7rem;
+    color: #666;
+  }
+  
+  .bspan{
+  color: #f7f7f7;
+    background-color: rgb(211, 87, 87);
+    font-size: 0.8rem;
+    padding: 0.15rem;
+  }

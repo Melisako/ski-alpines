@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Style for offer-block */
+.offer-block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for h3 elements inside offer-block */
+  .offer-block h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  /* Style for offer-paragraph class */
+  .offer-paragraph {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  /* Style for input elements */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for images */
+  .offer-block img {
+    max-width: 100%;
+   height: 20rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
