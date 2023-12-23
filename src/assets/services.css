@@ -17,6 +17,21 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+  .carousel {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    /* Additional styles for the container */
+  }
+  
+  .carousel img {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust margins between images */
+    border: 2px solid #ccc; /* Example border style */
+    border-radius: 8px; /* Rounded corners */
+    /* Additional styles for individual images */
+  }
   
   .service-image {
     display: flex; 
