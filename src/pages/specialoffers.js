@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt, faUsers } from '@fortawesome/free-solid-svg-icons';
-import lunchImg from '../assets/img/18.jpg';
-import morningImg from '../assets/img/19.jpg';
+import lunchImg from '../assets/img/19.jpg';
+import morningImg from '../assets/img/18.jpg';
 import dinnerImg from '../assets/img/17.jpg';
 import '../assets/specialoffers.css';
 
@@ -16,7 +16,7 @@ const SpecialOffers = () => {
           <div className="offer-block">
             <img src={lunchImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
-            <p className="offer-paragraph">Preis: €75</p>
+           
             <label htmlFor="lunch-guests">
               <FontAwesomeIcon icon={faUsers} /> Reservieren für:
             </label>
@@ -44,7 +44,7 @@ const SpecialOffers = () => {
           <div className="offer-block">
             <img src={morningImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
-            <p className="offer-paragraph">Preis: €95</p>
+          
             <label htmlFor="lunch-guests">
               <FontAwesomeIcon icon={faUsers} /> Reservieren für:
             </label>
@@ -72,7 +72,7 @@ const SpecialOffers = () => {
           <div className="offer-block">
             <img src={dinnerImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
-            <p className="offer-paragraph">Preis: €105</p>
+          
             <label htmlFor="lunch-guests">
               <FontAwesomeIcon icon={faUsers} /> Reservieren für:
             </label>
