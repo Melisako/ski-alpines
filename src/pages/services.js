@@ -24,19 +24,19 @@ const Services = () => {
           <div className="card">
             <img src={news11Img} alt="Swiss Alps" className="service-image" />
             <p>Teleferisches Skifahren beinhaltet die Nutzung eines Seilbahn-Systems wie einer Gondel oder einer Kabelbahn, um höhere Höhen im Gebirge zu erreichen.</p>
-            <button className="link">Klicken Sie hier</button>
+            <button className="link" onClick={toggleCarousel}>Klicken Sie hier</button>
 
           </div>
           <div className="card">
             <img src={news13Img} alt="Swiss Alps" className="service-image" />
             <p>Snowboarden ist ein Wintersport, bei dem Teilnehmer auf einem einzigen Brett, das an ihren Füßen befestigt ist, bergab gleiten.</p>
-            <button className="link" >Klicken Sie hier</button>
+            <button className="link" onClick={toggleCarousel}>Klicken Sie hier</button>
 
           </div>
           <div className="card">
             <img src={news14Img} alt="Swiss Alps" className="service-image" />
             <p>Wettkampf in Deutsch bezieht sich auf Wettbewerbe oder Wettstreits auf Deutsch.</p>
-            <button className="link" >Klicken Sie hier</button>
+            <button className="link" onClick={toggleCarousel}>Klicken Sie hier</button>
 
           </div>
         </>
