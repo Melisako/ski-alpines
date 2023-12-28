@@ -61,7 +61,7 @@ h3 {
 
 
 
-label {
+labell {
   display: block;
   font-family: 'Georgia', serif;
   margin-bottom: 10px;
@@ -70,7 +70,7 @@ label {
 
 input[type='number'],
 input[type='date'],
-.form-control {
+.form-controll {
   width: 80%; 
   margin: 0 auto;
   padding: 10px;

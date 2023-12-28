@@ -51,7 +51,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-control"
+              className="form-controll"
               placeholder="Anzahl der Gäste"
               aria-label="Mittagessen-guests"
             />

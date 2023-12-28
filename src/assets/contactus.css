@@ -29,21 +29,23 @@
   }
   
   label {
+   text-align: center;
     font-weight: bold;
-    color: #f0f0f0;
+    color: #fffafa;
     font-family: 'Georgia', serif;
     font-size: 1.1em;
+display: inline;
   }
   
   .form-control {
     
-    width: 90%;
-    margin-left: 1.2rem;
+    width: 75%;
+    margin-left: 2rem;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 2rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #424040;
+    border-radius: 6px;
     font-size: 1em;
   }
   
@@ -55,11 +57,11 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(14, 14, 14, 0.1);
   }
   
 
@@ -115,10 +117,11 @@ margin-right: 2rem;
   }
 
   .form-cont{
-    margin-bottom: 2rem;
+    width: 75%;
+    margin-left: 2rem;
     padding: 10px;
-    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    border-radius: 6px;
     font-size: 1em;
-    width: 80%;
-    border: 1px solid #ccc;
   }

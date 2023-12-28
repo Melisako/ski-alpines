@@ -16,7 +16,7 @@ const ContactUs = () => {
             <input type="email" className="form-control" />
           </div>
           <div className="form-group">
-            <label className="mess">Message:</label>
+            <label className="mess">Memo:</label>
             <input type="message" className="form-cont" rows="5"></input>
           </div>
           <div className="date-group">
