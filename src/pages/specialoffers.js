@@ -9,7 +9,7 @@ import '../assets/specialoffers.css';
 const SpecialOffers = () => {
 
   return (
-    <div className="container">
+    <div className="containerr">
       <h2 className="text-center my-4">Spezielle Angebote für das Skigebiet</h2>
       <div className="row">
         <div className="col-md-4">
@@ -23,7 +23,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-control"
+              className="form-controll"
               placeholder="Anzahl der Gäste"
               aria-label="Mittagessen-guests"
             />
@@ -33,7 +33,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-control"
+              className="form-controll"
               aria-label="Mittagessen-date"
             />
           </div>
@@ -61,7 +61,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-control"
+              className="form-controll"
               aria-label="Mittagessen-date"
             />
           </div>
@@ -79,7 +79,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-control"
+              className="form-controll"
               placeholder="Anzahl der Gäste"
               aria-label="Mittagessen-guests"
             />
@@ -89,7 +89,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-control"
+              className="form-controll"
               aria-label="Mittagessen-date"
             />
      
