@@ -23,9 +23,10 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-controll"
+              className="reservation-input"
+              aria-label="Mittagessen-date"
               placeholder="Anzahl der Gäste"
-              aria-label="Mittagessen-guests"
+         
             />
             <label htmlFor="lunch-date">
               <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
@@ -33,7 +34,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-controll"
+              className="reservation-input"
               aria-label="Mittagessen-date"
             />
           </div>
@@ -51,9 +52,9 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-controll"
-              placeholder="Anzahl der Gäste"
-              aria-label="Mittagessen-guests"
+        
+              className="reservation-input"
+              aria-label="Mittagessen-date"
             />
             <label htmlFor="lunch-date">
               <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
@@ -61,7 +62,7 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-controll"
+              className="reservation-input"
               aria-label="Mittagessen-date"
             />
           </div>
@@ -79,9 +80,9 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-              className="form-controll"
-              placeholder="Anzahl der Gäste"
-              aria-label="Mittagessen-guests"
+     
+              className="reservation-input"
+              aria-label="Mittagessen-date"
             />
             <label htmlFor="lunch-date">
               <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
@@ -89,8 +90,8 @@ const SpecialOffers = () => {
             <input
               id="lunch-date"
               type="date"
-              className="form-controll"
-              aria-label="Mittagessen-date"
+              className="reservation-input"
+  aria-label="Mittagessen-date"
             />
      
         </div>
