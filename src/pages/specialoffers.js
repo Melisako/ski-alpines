@@ -9,7 +9,7 @@ import '../assets/specialoffers.css';
 const SpecialOffers = () => {
 
   return (
-    <div className="containerr">
+    <div className="containerrr">
       <h2 className="text-center my-4">Spezielle Angebote für das Skigebiet</h2>
       <div className="row">
         <div className="col-md-4">
