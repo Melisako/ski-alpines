@@ -13,7 +13,7 @@ const SpecialOffers = () => {
       <h2 className="text-center my-4">Spezielle Angebote für das Skigebiet</h2>
       <div className="row">
         <div className="col-md-4">
-          <div className="offer-block">
+          <div className="offerr-block">
             <img src={lunchImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
            
@@ -42,7 +42,7 @@ const SpecialOffers = () => {
 
 
         <div className="col-md-4">
-          <div className="offer-block">
+          <div className="offerr-block">
             <img src={morningImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           
@@ -70,7 +70,7 @@ const SpecialOffers = () => {
 
 
           <div className="col-md-4">
-          <div className="offer-block">
+          <div className="offerr-block">
             <img src={dinnerImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           

@@ -9,7 +9,7 @@
 
 
 
-.offer-block {
+.offerr-block {
   background-image: url('C:/Users/Hp/Desktop/ski-alpines/src/assets/img/29.jpg');
   background-size: cover;
   background-position: center; 
@@ -21,7 +21,7 @@
 
 
 
-.offer-block img {
+.offerr-block img {
 width: 30rem;
 height: 10rem;
 display: flex;
@@ -33,7 +33,7 @@ margin-bottom: 2rem;
 
 }
 
-.offer-block h3 {
+.offerr-block h3 {
   color: darkred; 
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 4rem;
@@ -41,7 +41,7 @@ margin-bottom: 2rem;
 
 
 .form-controll {
-  width: 90%;
+  width: 80%;
   padding: 10px;
   border: 1px solid #ccc; 
   border-radius: 5px;
