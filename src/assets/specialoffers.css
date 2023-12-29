@@ -1,4 +1,9 @@
 
+.containerrr{
+  padding: 20px;
+  background-color: #f7f6f6cb;
+}
+
 .vintage-labell {
   color: #fff; 
   font-family: 'Times New Roman', Times, serif; 
@@ -7,9 +12,14 @@
   text-shadow: 1px 1px 1px rgba(232, 220, 220, 0.5); 
 }
 
+.red-icon {
+  color: red; 
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
 
 .my-4 {
-  margin-top: 2rem; 
+
   margin-bottom: 2.5rem; 
  
 }

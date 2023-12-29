@@ -5,12 +5,21 @@ import lunchImg from '../assets/img/19.jpg';
 import morningImg from '../assets/img/18.jpg';
 import dinnerImg from '../assets/img/17.jpg';
 import '../assets/specialoffers.css';
+import { FaSkiing } from 'react-icons/fa'; 
 
 const SpecialOffers = () => {
 
   return (
     <div className="containerrr">
-      <h2 className="text-center my-4">Spezielle Angebote für das Skigebiet</h2>
+  <h2 className="text-center my-4">
+    <span className="red-icon">
+      <FaSkiing /> 
+    </span>
+    {' '}Spezielle Angebote für das Skigebiet
+    <span className="red-icon">
+ <FaSkiing />
+    </span>
+  </h2>
       <div className="row">
         <div className="col-md-4">
           <div className="offerr-block">
