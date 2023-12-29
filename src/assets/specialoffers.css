@@ -8,13 +8,18 @@
 }
 
 
-
+.my-4 {
+  margin-top: 2rem; 
+  margin-bottom: 2.5rem; 
+ 
+}
 .offerr-block {
-  background-image: url('C:/Users/Hp/Desktop/ski-alpines/src/assets/img/29.jpg');
+
+background-image: url('https://wallup.net/wp-content/uploads/2018/09/25/617039-Alps-Switzerland-mountains-winter-mist-snow.jpg');
   background-size: cover;
   background-position: center; 
   padding: 20px;
-  margin-bottom: 5rem;
+  margin-bottom: 5.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(196, 12, 12, 0.2);
 }
@@ -36,7 +41,7 @@ margin-bottom: 2rem;
 .offerr-block h3 {
   color: darkred; 
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 
@@ -62,7 +67,9 @@ margin-bottom: 2rem;
 }
 
 .reservation-input {
-  width: 100%;
+  margin-top: 1rem;
+width: 65rem;
+height: 1rem;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;

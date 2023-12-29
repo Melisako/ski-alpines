@@ -29,7 +29,7 @@ const SpecialOffers = () => {
          
             />
             <label htmlFor="lunch-date">
-              <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
+              <FontAwesomeIcon /> Reservierungsdatum:
             </label>
             <input
               id="lunch-date"
@@ -52,12 +52,12 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-        
+              placeholder="Anzahl der Gäste"
               className="reservation-input"
               aria-label="Mittagessen-date"
             />
             <label htmlFor="lunch-date">
-              <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
+              <FontAwesomeIcon  /> Reservierungsdatum:
             </label>
             <input
               id="lunch-date"
@@ -80,12 +80,11 @@ const SpecialOffers = () => {
             <input
               id="lunch-guests"
               type="number"
-     
               className="reservation-input"
-              aria-label="Mittagessen-date"
+              placeholder="Anzahl der Gäste"
             />
             <label htmlFor="lunch-date">
-              <FontAwesomeIcon icon={faCalendarAlt} /> Reservierungsdatum:
+              <FontAwesomeIcon  /> Reservierungsdatum:
             </label>
             <input
               id="lunch-date"
