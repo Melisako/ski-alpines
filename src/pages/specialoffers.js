@@ -56,7 +56,7 @@ const SpecialOffers = () => {
       
         <div className="col-md-4">
           <div className="offerr-block">
-          <button>1) $150</button>
+          <button>1) $200</button>
             <img src={morningImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           
@@ -85,7 +85,7 @@ const SpecialOffers = () => {
 
           <div className="col-md-4">
           <div className="offerr-block">
-       <button>1) $150</button>
+       <button>1) $250</button>
             <img src={dinnerImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           
