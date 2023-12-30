@@ -5,7 +5,7 @@ import '../assets/contactus.css';
 const ContactUs = () => {
     return (
       <div className="contact-us">
-        <h2>Kontaktiere uns</h2>
+
         <form className="contact-form">
           <div className="form-group">
             <label>Name:</label>

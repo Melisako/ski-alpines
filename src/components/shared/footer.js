@@ -11,21 +11,23 @@ const Footer = () => {
         <p>Switzerland</p>
       </div>
       <div className="contact">
-        <h4>Kontaktiere uns:</h4>
+      <h4 style={{ letterSpacing: '2px' }}>Kontaktiere uns:</h4>
+
+
         <ul>
-          <li><FaPhone /> +1234567890</li>
-          <li><FaEnvelope /> schneebergblick@swiss.com</li>
+        
           <li><FaPhone /> +9876543210</li> 
           <li><FaEnvelope /> info@swissalpineplace.com</li> 
         </ul>
       </div>
 
-      <div className="social-icons">
-        <h4>Folge uns</h4>
-        <a href="https://twitter.com"><FaTwitter /></a>
-        <a href="https://facebook.com"><FaFacebook /></a>
-        <a href="https://instagram.com"><FaInstagram /></a>
-      </div>
+      <div class="social-icons">
+  <h4>Folge uns</h4>
+  <a href="https://twitter.com" class="icon-link"><FaTwitter /></a>
+  <a href="https://facebook.com" class="icon-link"><FaFacebook /></a>
+  <a href="https://instagram.com" class="icon-link"><FaInstagram /></a>
+</div>
+
     </footer>
   );
 };

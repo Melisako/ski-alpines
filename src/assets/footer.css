@@ -1,17 +1,16 @@
 .footer {
   background-color: #222;
   color: #ddd;
-  padding: 40px 20px;
+  padding: 25px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.location {
 
-}
 .location p{
+  letter-spacing: 0.2rem;
 margin-right: 14rem;
  
 }
@@ -20,6 +19,7 @@ margin-right: 14rem;
   color: #ff6347;
 }
 .contact ul {
+  letter-spacing: 0.2rem;
   font-size: 1rem;
   list-style-type: none;
   padding: 0;
@@ -27,13 +27,14 @@ margin-right: 14rem;
 }
 
 .contact ul li {
-
+  letter-spacing: 0.2rem;
   font-size: 0.9rem;
   margin-bottom: 10px;
 }
 .cont
 
 .social-icons a {
+  letter-spacing: 0.2rem;
   color: #ddd;
   text-decoration: none;
   margin: 0 10px;
@@ -43,4 +44,29 @@ margin-right: 14rem;
 
 .social-icons a:hover {
   opacity: 0.8;
+}
+
+
+.social-icons {
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: #adabab; 
+}
+
+.social-icons h4 {
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.icon-link {
+  color: #adabab; 
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #007bff; 
 }
