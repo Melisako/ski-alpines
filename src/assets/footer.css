@@ -16,7 +16,9 @@ margin-right: 14rem;
  
 }
 
-
+.phone {
+  color: #ff6347;
+}
 .contact ul {
   font-size: 1rem;
   list-style-type: none;
