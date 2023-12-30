@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt, faUsers } from '@fortawesome/free-solid-svg-icons';
-import lunchImg from '../assets/img/19.jpg';
+import lunchImg from '../assets/img/32.jpg';
 import morningImg from '../assets/img/18.jpg';
 import dinnerImg from '../assets/img/17.jpg';
 import '../assets/specialoffers.css';
@@ -56,7 +56,7 @@ const SpecialOffers = () => {
       
         <div className="col-md-4">
           <div className="offerr-block">
-          <button>1) $200</button>
+          <button>2) $200</button>
             <img src={morningImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           
@@ -85,7 +85,7 @@ const SpecialOffers = () => {
 
           <div className="col-md-4">
           <div className="offerr-block">
-       <button>1) $250</button>
+       <button>3) $250</button>
             <img src={dinnerImg} alt="Lunch Icon" />
             <h3>Mittagessen</h3>
           

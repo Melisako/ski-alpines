@@ -11,12 +11,12 @@ const Footer = () => {
         <p>Switzerland</p>
       </div>
       <div className="contact">
-        <h4>Kontaktiere uns</h4>
+        <h4>Kontaktiere uns:</h4>
         <ul>
           <li><FaPhone /> +1234567890</li>
           <li><FaEnvelope /> schneebergblick@swiss.com</li>
-          <li><FaPhone /> +9876543210</li> {/* Additional phone number */}
-          <li><FaEnvelope /> info@swissalpineplace.com</li> {/* Additional email */}
+          <li><FaPhone /> +9876543210</li> 
+          <li><FaEnvelope /> info@swissalpineplace.com</li> 
         </ul>
       </div>
 
