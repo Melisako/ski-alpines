@@ -18,6 +18,30 @@
   margin-left: 0.5rem;
 }
 
+
+button {
+  margin-bottom: 1rem;
+  padding: 8px 20px;
+  background-color: #c4aead;
+  border: 2px solid #5c4a42;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace; 
+  font-size: 16px;
+  color: #3d3029; 
+  text-transform: uppercase; 
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05); 
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); 
+}
+
+
+
+
 .my-4 {
   margin-bottom: 3.5rem; 
 }
