@@ -36,3 +36,47 @@
     width: 5.5rem;
     height: 3rem;
   }
+  @media screen and (max-width: 768px) {
+    .header {
+      height: auto;
+      padding: 5px;
+    }
+  
+    .header-content {
+      margin-left: 10px;
+      justify-content: center;
+    }
+  
+    .custom-link {
+      font-size: 1rem;
+      margin: 0 5px;
+      padding: 3px 6px;
+    }
+  
+    .header-image {
+      width: 4rem;
+      height: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .header {
+      padding: 5px;
+    }
+  
+    .header-content {
+      margin-left: 5px;
+    }
+  
+    .custom-link {
+      font-size: 0.9rem;
+      margin: 0 3px;
+      padding: 2px 4px;
+    }
+  
+    .header-image {
+      width: 3.5rem;
+      height: 2rem;
+    }
+  }
+  

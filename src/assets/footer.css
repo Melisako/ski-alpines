@@ -70,3 +70,63 @@ margin-right: 14rem;
 .icon-link:hover {
   color: #007bff; 
 }
+@media screen and (max-width: 768px) {
+  .location p {
+    margin-right: 0;
+  }
+
+  .contact ul {
+    font-size: 0.9rem;
+  }
+
+  .contact ul li {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+
+  .social-icons h4 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .icon-link {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .location p {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .contact ul {
+    font-size: 0.8rem;
+  }
+
+  .contact ul li {
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    margin: 0 6px;
+  }
+
+  .social-icons h4 {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+
+  .icon-link {
+    font-size: 18px;
+    margin: 0 6px;
+  }
+}

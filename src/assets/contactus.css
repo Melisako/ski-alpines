@@ -129,3 +129,75 @@ margin-right: 2rem;
     border-radius: 6px;
     font-size: 1em;
   }
+  @media screen and (max-width: 768px) {
+    .contact-form {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    label {
+      text-align: center;
+      display: block;
+      margin: 10px 0;
+      font-size: 0.9em;
+    }
+  
+    .form-control,
+    .form-cont,
+    .start-date,
+    .end-date {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+  
+    .btn-submit {
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 0.9em;
+    }
+  
+    .date-group {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .date-label {
+      margin-left: 0;
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .contact-us h2 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+  
+    .contact-form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    label {
+      font-size: 0.85em;
+    }
+  
+    .form-control,
+    .form-cont,
+    .start-date,
+    .end-date {
+      font-size: 0.85em;
+    }
+  
+    .btn-submit {
+      font-size: 0.85em;
+      margin-top: 1.5rem;
+    }
+  }
+  
