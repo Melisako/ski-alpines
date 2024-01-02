@@ -32,18 +32,19 @@
   }
   
   label {
+    letter-spacing: 0.2rem;
    text-align: center;
-    font-weight: bold;
+    font-weight: 540;
     color: #fffafa;
     font-family: 'Georgia', serif;
-    font-size: 1.1em;
+    font-size: 1em;
 display: inline;
   }
   
   .form-control {
     
     width: 75%;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 2rem;
@@ -105,7 +106,7 @@ display: inline;
   .end-date {
     width: 70%; 
     margin-left: 2rem;
-margin-right: 2rem;
+margin-right: 1rem;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -122,7 +123,7 @@ margin-right: 2rem;
 
   .form-cont{
     width: 75%;
-    margin-left: 2.3rem;
+    margin-left: 1.3rem;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 2rem;
