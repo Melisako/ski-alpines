@@ -19,18 +19,18 @@
   }
   .carousel {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
-    align-items: center; /* Adjust as needed */
-    /* Additional styles for the container */
+    justify-content: space-between; 
+    align-items: center;
+   
   }
   
   .carousel img {
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Adjust margins between images */
-    border: 2px solid #ccc; /* Example border style */
-    border-radius: 8px; /* Rounded corners */
-    /* Additional styles for individual images */
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    
   }
   
   .service-image {
